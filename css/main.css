@@ -199,26 +199,34 @@ p {
 }
 .content-section {
 	height: 550px;
+	position: relative;
 }
 .content-section,
 .content-section-secondary {
 	text-align: center;
 }
-.modern-prep-mom {
-	background: #fff url(../images/background-modern-prep.jpg) no-repeat 0 115px;
+.content-copy {
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
-.active-mom {
-	background: #fff url(../images/background-active-mom.jpg) no-repeat 0 90px;
+.modern-prep-mom img {
+	margin-top: 115px;
 }
-.on-trend-mom {
-	background: #fff url(../images/background-on-trend-mom.jpg) no-repeat 0 90px;
+.active-mom img {
+	margin-top: 90px;
 }
-.classic-mom {
-	background: #fff url(../images/background-classic-mom.jpg) no-repeat 0 100px;
+.on-trend-mom img {
+	margin-top: 90px;
+}
+.classic-mom img {
+	margin-top: 100px;
 }
 .travelling-mom {
-	background: #fff url(../images/background-travelling-mom.jpg) no-repeat 0 35px;
 	height: 650px;
+}
+.travelling-mom img {
+	margin-top: 35px;
 }
 .image-series a {
 	border: 1px solid #bfbfbe;
