@@ -200,9 +200,6 @@ p {
 .content-section {
 	height: 550px;
 }
-/*.content-section-secondary {
-	height: 350px;	
-}*/
 .content-section,
 .content-section-secondary {
 	text-align: center;
@@ -224,27 +221,40 @@ p {
 	height: 650px;
 }
 .image-series a {
-	width: 215px;
-	height: 234px;
+	border: 1px solid #bfbfbe;
 	display: block;
 	float: left;
-	margin: 0 13px 55px 0;
+	height: 234px;
+	margin: 0 16px 55px 0;
+	width: 215px;
+}
+.image-series a.last {
+	margin-right: 0;
+}
+.image-series a:hover {
+	border: 1px solid #000;
 }
 .under-50 {
 	background: #333 url(../images/sprite-under-50.jpg) no-repeat;
-	background-position: 0 0;
-	border: 1px solid #bfbfbe;
 }
-.image-1 {
+.under-150 {
+	background: #333 url(../images/sprite-under-150.jpg) no-repeat;	
+}
+/* igTODO will probably be able to double up on these */
+a.under-50.image-1,
+a.under-150.image-1 {
 	background-position: 0 0;
 }
-.image-2 {
+a.under-50.image-2,
+a.under-150.image-2 {
 	background-position: -225px 0;
 }
-.image-3 {
+a.under-50.image-3,
+a.under-150.image-3 {
 	background-position: -455px 0;
 }
-.image-4 {
+a.under-50.image-4,
+a.under-150.image-4 {
 	background-position: -690px 0;
 }
 
