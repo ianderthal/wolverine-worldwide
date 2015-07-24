@@ -101,6 +101,7 @@ body {
 	color: #00204e;
 	font-family: 'Droid Serif', Georgia, serif;
 	font-size: 16px;
+	min-width: 920px;
 }
 /* secondary layout structure */
 header {
@@ -141,7 +142,7 @@ nav a {
 	max-width: 920px;
 }
 .page-banner {
-	background: #333 url(../images/background-gifts-for-mom.jpg) repeat scroll 0 0;
+	background: #f0f1f5 url(../images/background-gifts-for-mom.jpg) repeat scroll 0 0;
 	height: 350px;
 	margin: 0 0 35px 0;
 }
