@@ -117,11 +117,12 @@ nav ul {
 }
 nav li {
 	display: inline;
-	padding: 10px 10px 10px 0;
+	padding: 10px 20px 10px 0;
 }
 nav a {
-	color: #071c2c;
+	color: #00204e;
 	display: inline-block;
+	font-family: Arial, 'san-serif';
 	font-size: 13px;
 	font-weight: bold;
 	text-decoration: none;
@@ -133,6 +134,7 @@ nav a:hover {
 .page-banner {
 	background: #333 url(../images/background-gifts-for-mom.jpg) repeat scroll 0 0;
 	height: 350px;
+	margin: 0 0 35px 0;
 }
 .page-banner-description {
 	position: relative;
@@ -152,7 +154,7 @@ nav a:hover {
 h3 {
 	color: #00204e;
 	font-size: 42px;
-	margin-bottom: 15px;
+	margin: 0px 0 15px 0;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -176,10 +178,11 @@ h3.background:before {
 h3.background span {
 	/* to hide the lines from behind the text, you have to set the background color the same as the container */
 	background: #fff;
-	padding: 0 20px;
+	padding: 0 15px;
 }
 p {
 	text-align: center;
+	margin-top: 0;
 }
 .call-to-action {
 	/* consolidate styles, create hover style */
@@ -188,6 +191,7 @@ p {
 	font-size: 11px;
 	font-weight: bold;
 	display: inline-block;
+	margin-bottom: 20px;
 	padding: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -195,19 +199,54 @@ p {
 }
 .content-section {
 	height: 550px;
-	text-align: center;
 }
-.content-section a {
-	text-decoration: none;
+/*.content-section-secondary {
+	height: 350px;	
+}*/
+.content-section,
+.content-section-secondary {
+	text-align: center;
 }
 .modern-prep-mom {
 	background: #fff url(../images/background-modern-prep.jpg) no-repeat 0 115px;
 }
 .active-mom {
-	background: #fff url(../images/background-active-mom.jpg) no-repeat 0 0px;
+	background: #fff url(../images/background-active-mom.jpg) no-repeat 0 90px;
 }
-
-
+.on-trend-mom {
+	background: #fff url(../images/background-on-trend-mom.jpg) no-repeat 0 90px;
+}
+.classic-mom {
+	background: #fff url(../images/background-classic-mom.jpg) no-repeat 0 100px;
+}
+.travelling-mom {
+	background: #fff url(../images/background-travelling-mom.jpg) no-repeat 0 35px;
+	height: 650px;
+}
+.image-series a {
+	width: 215px;
+	height: 234px;
+	display: block;
+	float: left;
+	margin: 0 13px 55px 0;
+}
+.under-50 {
+	background: #333 url(../images/sprite-under-50.jpg) no-repeat;
+	background-position: 0 0;
+	border: 1px solid #bfbfbe;
+}
+.image-1 {
+	background-position: 0 0;
+}
+.image-2 {
+	background-position: -225px 0;
+}
+.image-3 {
+	background-position: -455px 0;
+}
+.image-4 {
+	background-position: -690px 0;
+}
 
 
 
