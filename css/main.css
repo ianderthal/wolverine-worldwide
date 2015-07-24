@@ -95,23 +95,20 @@ textarea {
    Ian Gallardo's custom styles
    ========================================================================== */
 
+/* primary layout */
 body {
 	background: #fff none repeat scroll 0 0;
 	color: #00204e;
 	font-family: 'Droid Serif', Georgia, serif;
 	font-size: 16px;
 }
+/* secondary layout structure */
 header {
 	padding-top: 40px;
 }
 footer {
 	border-bottom: 1px solid #ccd2dc;
 	margin-bottom: 75px;
-}
-.wrapper {
-	background: #fff none repeat scroll 0 0;
-	margin: 0 auto;
-	max-width: 920px;
 }
 nav ul {
 	list-style: none;
@@ -124,6 +121,7 @@ nav li {
 	padding: 10px 20px 10px 0;
 }
 nav a {
+	border-bottom: 1px solid transparent;
 	color: #00204e;
 	display: inline-block;
 	font-family: Arial, 'san-serif';
@@ -135,6 +133,13 @@ nav a {
 	nav a:hover {
 		border-bottom: 1px dotted #000;
 	}
+
+/* content styles */
+.wrapper {
+	background: #fff none repeat scroll 0 0;
+	margin: 0 auto;
+	max-width: 920px;
+}
 .page-banner {
 	background: #333 url(../images/background-gifts-for-mom.jpg) repeat scroll 0 0;
 	height: 350px;
