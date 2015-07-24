@@ -104,6 +104,10 @@ body {
 header {
 	padding-top: 40px;
 }
+footer {
+	border-bottom: 1px solid #ccd2dc;
+	margin-bottom: 75px;
+}
 .wrapper {
 	background: #fff none repeat scroll 0 0;
 	margin: 0 auto;
@@ -128,9 +132,9 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-nav a:hover {
-	border-bottom: 1px dotted #000;
-}
+	nav a:hover {
+		border-bottom: 1px dotted #000;
+	}
 .page-banner {
 	background: #333 url(../images/background-gifts-for-mom.jpg) repeat scroll 0 0;
 	height: 350px;
@@ -242,31 +246,42 @@ p {
 .image-series a:hover {
 	border: 1px solid #000;
 }
-.under-50 {
-	background: #333 url(../images/sprite-under-50.jpg) no-repeat;
+.social-media-list {
+	list-style: none;
+	margin-bottom: 55px;
+	padding: 0;
+	text-align: center;
 }
-.under-150 {
-	background: #333 url(../images/sprite-under-150.jpg) no-repeat;	
+.social-media-list li {
+	display: inline-block;
+	margin-right: 6px;
 }
-/* igTODO will probably be able to double up on these */
-a.under-50.image-1,
-a.under-150.image-1 {
-	background-position: 0 0;
+.social-media-list a {
+	opacity: 1;
+	-moz-transition: opacity ease-in-out .25s ;
+	-webkit-transition: opacity ease-in-out .25s ;
+	transition: opacity ease-in-out .25s;
 }
-a.under-50.image-2,
-a.under-150.image-2 {
-	background-position: -225px 0;
+	.social-media-list a:hover {
+		opacity: 0.7;
+	}
+.icon-view {
+	width: 28px;
+	height: 27px;
+	overflow: hidden;
 }
-a.under-50.image-3,
-a.under-150.image-3 {
-	background-position: -455px 0;
+.facebook {
+	margin-left: 0;
 }
-a.under-50.image-4,
-a.under-150.image-4 {
-	background-position: -690px 0;
+.twitter {
+	margin-left: -34px;
 }
-
-
+.pinterest {
+	margin-left: -67px;
+}
+.instagram {
+	margin-left: -101px;
+}
 
 /* ==========================================================================
    Helper classes
