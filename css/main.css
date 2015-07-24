@@ -156,32 +156,16 @@ nav a {
 	text-transform: uppercase;
 }
 h3 {
+	background: url(../images/background-heading.png) 0 50% repeat-x;
 	color: #00204e;
 	font-size: 42px;
 	margin: 0px 0 15px 0;
 	text-align: center;
 	text-transform: uppercase;
 }
-h3.background {
-	position: relative;
-	z-index: 1;
-}
-h3.background:before {
-	border-top: 1px solid #bfbfbe;
-	content: "";
-	margin: 0 auto;
-	/* this centers the line to the full width specified */
-	position: absolute;
-	/* positioning must be absolute here, and relative positioning must be applied to the parent */
-	top: 50%;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-}
-h3.background span {
-	/* to hide the lines from behind the text, you have to set the background color the same as the container */
-	background: #fff;
+h3 span {
+	/* disguise the lines behind the text */
+	background-color: #fff;
 	padding: 0 15px;
 }
 p {
@@ -206,7 +190,6 @@ a.call-to-action:hover {
 	background: #00204e;
 	color: #fff;
 }
-
 .content-section {
 	height: 550px;
 	position: relative;
